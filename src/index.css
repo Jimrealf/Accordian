@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #0f172a;
+  background: #a5f3fc;
+  font-weight: normal;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
+main {
+  background: #fff;
+  width: 70vw;
+  margin: 5rem auto;
+  border-radius: 0.25rem;
+  padding: 2.5rem;
+  max-width: 800px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #334155;
+  font-size: 3.052rem;
+  font-weight: 400;
+}
+
+li {
+  padding: 0 1.5rem;
+  border: 2px solid #e2e8f0;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.question-btn {
+  border-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  color: #164e63;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  min-width: 2rem;
+}
+
+h2 {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #334155;
+  font-size: 1.25rem;
+}
+
+p {
+  color: #64748b;
+  line-height: 2;
+  margin-top: 1rem;
+}
