@@ -10,7 +10,7 @@ function App() {
 
   return (
     <main>
-      <h1>Questions</h1>
+      <h1>FAQ</h1>
       <Questions questions={questions} />
     </main>
   );
